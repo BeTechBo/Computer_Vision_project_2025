@@ -1,22 +1,36 @@
 # Computer_Vision_project_2025_MileStone_1
-# Team members: 
-# Ebram Thabet
-# Nour Abdelghani
-# Adham Khalil
-# Eman Abdelhady
+ 
+ 
+ Team members: 
+ 
+ Ebram Thabet
+ 
+ Nour Abdelghani
+ 
+ Adham Khalil
+ 
+ Eman Abdelhady
 
 Sudoku Grid Preprocessor
 A robust preprocessing pipeline for Sudoku puzzle images that transforms raw photos into clean, normalized, perspective-corrected grid images ready for digit recognition.
 
 Features
 📸 Handles real-world photos from phones or cameras
+
 🔁 Automatically corrects inverted images (dark background)
+
 🌓 Normalizes brightness and contrast using a reference image
+
 🧹 Removes noise and small disconnected components
+
 🧭 Detects and isolates the Sudoku grid
+
 📐 Applies perspective correction to produce a top-down view
+
 👁️ Visualizes every processing step when run in Google Colab
+
 💾 Saves both final grids and intermediate steps for inspection
+
 Requirements
 Python 3.7 or higher
 OpenCV (opencv-python)
